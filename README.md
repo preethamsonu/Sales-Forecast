@@ -11,7 +11,7 @@ The data used for the forecasting was generated with the assistance of ChatGPT.
 ### 1. Forecasting Using Formulae
 This method involves calculating sales forecasts using the =FORECAST() function in Excel. The =FORECAST() function predicts future values based on historical data.
 
-Steps:
+#### Steps:
 
 Prepare Historical Data: Arrange the historical sales data in columns.
 Apply Forecast Formula: Use the =FORECAST() function to estimate future sales. The syntax is =FORECAST(x, known_ys, known_xs), where x is the target date, known_ys are the historical sales data, and known_xs are the corresponding dates.
@@ -19,7 +19,7 @@ Analyze Results: Compare the forecasted values with actual values (if available)
 ### 2. Graph Trendline
 In this method, you visualize the data on a chart and apply a trendline to project future sales.
 
-Steps:
+#### Steps:
 
 Create a Chart: Plot the historical sales data on a line chart.
 Add a Trendline: Add a trendline to the chart. Excel will automatically fit the best line to the data.
@@ -28,7 +28,7 @@ Extend the Trendline: Forecast future sales by extending the trendline beyond th
 ### 3. Forecast Sheet
 The Forecast Sheet feature in Excel provides automated forecasting using advanced statistical methods.
 
-Steps:
+#### Steps:
 
 Select Data: Highlight the historical sales data.
 Generate Forecast Sheet: Navigate to the Data tab and select Forecast Sheet.
